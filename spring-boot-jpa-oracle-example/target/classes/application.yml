@@ -1,0 +1,21 @@
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: debug
+  pattern:
+    console: '%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n'
+spring:
+  datasource:
+    driver-class: "oracle.jdbc.driver.OracleDriver"
+    hikari:
+      connection-timeout: 60000
+      maximum-pool-size: 5
+    password: boyuan
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+    username: boyuan
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+  main:
+    banner-mode: 'off'

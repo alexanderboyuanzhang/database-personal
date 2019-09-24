@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-sources>
+	<data-source id="oracle_thin-16a73e00ea6-4774f97bf1c80063" provider="oracle" driver="oracle_thin" name="Oracle - ORCL" save-password="true" read-only="false">
+		<connection host="localhost" port="1521" server="" database="ORCL" url="jdbc:oracle:thin:@//localhost:1521/ORCL" user="boyuan" password="EQsfNUBNJPc=" home="C:\app\BoyuanZhang\virtual\product\12.2.0\dbhome_1" type="dev">
+			<provider-property name="@dbeaver-always-use-dba-views@" value="false"/>
+			<provider-property name="@dbeaver-sid-service@" value="SERVICE"/>
+			<provider-property name="@dbeaver-use-rule-hint@" value="false"/>
+			<provider-property name="@dbeaver-use-meta-optimizer@" value="false"/>
+			<provider-property name="@dbeaver-connection-type@" value="BASIC"/>
+			<provider-property name="@dbeaver-check-schema-content@" value="false"/>
+			<provider-property name="@dbeaver-meta-use-sys-schema@" value="false"/>
+			<provider-property name="@dbeaver-always-show-dba@" value="false"/>
+		</connection>
+	</data-source>
+	<filters/>
+</data-sources>
